@@ -4,7 +4,7 @@
 
 ## 1단계: 필수 프로그램 설치 (파이썬)
 컴퓨터에 파이썬이 설치되어 있지 않다면 먼저 설치해야 코드가 실행됩니다.
-1. [파이썬 공식 홈페이지](https://www.python.org/downloads/)에 접속하여 최신 버전의 Python을 다운로드합니다.
+1. [파이썬 공식 홈페이지](https://www.python.org/downloads/)에 접속하여 최신 버전의 Python을 다운로드합니다. ('Download Python install manager' 버튼 하단에 위치한 'Or get the standalone installer for Python 3.14.5' 와 같은 문장에서 밑줄 쳐져 있는 부분을 클릭하여 최신 버전을 다운로드합니다.)
 2. 다운로드한 설치 파일을 실행합니다.
 3. **중요:** 설치 창의 맨 아래에 있는 **`Add Python 3.x to PATH` 체크박스를 반드시 선택**한 뒤, `Install Now`를 눌러 설치를 완료합니다. (이 체크박스를 누락하면 이후 과정에서 오류가 발생합니다.)
 
