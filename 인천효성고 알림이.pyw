@@ -236,8 +236,19 @@ class SchoolWidget:
                 lbl.pack(anchor="w", padx=5, pady=2)
 
         # ==========================================
-        # [UI 그리기 4: 하단 커스텀 문구 고정]
+        # [UI 그리기 4: 하단 커스텀 문구 및 링크 고정]
         # ==========================================
+        # 깃허브 저장소 다운로드 링크 라벨 추가
+        github_url = "https://github.com/RECERpanda/Incheon_Hyosung_high_school_Notification"
+        download_lbl = tk.Label(self.content_frame, text="🔗 위젯 다운로드 주소", bg="#FFF9E6", fg="#2980b9", font=("Malgun Gothic", 9, "underline"), cursor="hand2")
+        download_lbl.pack(anchor="w", padx=5, pady=(40, 0))
+        
+        # 클릭 이벤트 및 호버 효과 바인딩
+        download_lbl.bind("<Button-1>", lambda e: webbrowser.open(github_url))
+        download_lbl.bind("<Enter>", lambda e: download_lbl.configure(fg="#0984e3"))
+        download_lbl.bind("<Leave>", lambda e: download_lbl.configure(fg="#2980b9"))
+
+        # 제작자 정보 고정
         maker_lbl = tk.Label(self.content_frame, text="made by PYO", bg="#FFF9E6", fg="#B2BEC3", font=("Malgun Gothic", 8))
         maker_lbl.pack(side="bottom", anchor="w", pady=(5, 0))
 
