@@ -20,6 +20,8 @@
 
 ## 3단계: 파일 설치
 <img width="1917" height="668" alt="image" src="https://github.com/user-attachments/assets/92b77a10-c435-48a0-8853-d6671a05090c" />
+<img width="1918" height="733" alt="image" src="https://github.com/user-attachments/assets/431d566f-7c04-4711-b8c6-9d811b4fc61c" />
+
 
 
 
